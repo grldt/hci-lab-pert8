@@ -1,0 +1,37 @@
+<!-- Untuk materi hari ini, usahain buka di chrome aja
+Aku coba di Microsoft Edge, ga support untuk line 31 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <p id="changetoName">
+      Click button dibawah ini untuk melihat contoh prompt
+    </p>
+    <button onclick="usingPrompt()">Click Me :)</button>
+    <br />
+    <br />
+    <br />
+
+    <form action="#">
+      <input type="text" name="name" id="name" placeholder="Full Name" />
+      <br />
+      <input type="password" name="pass" id="pass" placeholder="Password" />
+      <br />
+    </form>
+
+    <!-- aku keluarin buttonnya supaya kalian bisa liat hasil dari form -->
+    <button onclick="validation()">Click!!</button>
+
+    <p id="nameResult"></p>
+    <br />
+    <p id="passResult"></p>
+
+    <!-- Dialog box awalnya tidak terlihat, untuk membuatnya terlihat dapat digunakan javascript -->
+    <dialog id="dialogBox">Thank you for entering the data</dialog>
+  </body>
+  <script src="script.js"></script>
+</html>
